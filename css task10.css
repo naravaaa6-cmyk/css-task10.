@@ -1,0 +1,139 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #222;
+}
+
+.logo {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.menu a:hover {
+  color: #f5a623;
+}
+
+
+.hero {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 150px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
+.button {
+ 
+  background-color: #f5a623;
+  color: white;
+  text-decoration: none;
+  padding: 15px 35px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #d98e12;
+}
+
+
+.section {
+  padding: 70px 50px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
+.gray {
+  background-color: #f2f2f2;
+}
+
+
+.row {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Карточка услуги */
+.box {
+  width: 300px;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.box h3 {
+  margin-bottom: 10px;
+  color: #f5a623;
+}
+
+.project {
+  width: 300px;
+  height: 200px;
+  background-color: #888;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+
+.review {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.review p {
+  margin-bottom: 10px;
+}
+
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.footer h2 {
+  margin-bottom: 20px;
+}
